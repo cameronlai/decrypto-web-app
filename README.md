@@ -1,4 +1,4 @@
-# decypto-web-app
+# decrypto-web-app
 
 ## Project setup
 ```
