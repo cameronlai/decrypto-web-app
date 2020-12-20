@@ -1,28 +1,19 @@
 <template>
-  <div id="app">
-    <h1>Decrypto Web App</h1>
-    <HelloWorld msg="Welcome to Your Vue.js Appfff  fff" />
-  </div>
+  <v-app>
+    <TopToolbar></TopToolbar>
+    <v-main> <router-view></router-view> </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+//import HelloWorld from "./components/HelloWorld.vue";
+import TopToolbar from "./components/TopToolbar.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    TopToolbar,
+    //  HelloWorld,
   },
 };
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
