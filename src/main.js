@@ -9,6 +9,7 @@ Vue.config.productionTip = false
 Vue.use(Vuetify)
 Vue.use(VueRouter)
 
+
 new Vue({
   vuetify : new Vuetify(),
   router,
